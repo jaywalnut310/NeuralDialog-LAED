@@ -5,7 +5,7 @@ Codebase for [Unsupervised Discrete Sentence Representation Learning for Interpr
 </p>
 
 ## Requirements
-    python 2.7
+    python 3.6
     pytorch >= 0.3.0.post4
     numpy
     nltk
