@@ -141,7 +141,7 @@ class PTBCorpus(object):
         print("Done loading corpus")
 
     def _read_file(self, path):
-        with open(path, 'rb') as f:
+        with open(path, 'r') as f:
             lines = f.readlines()
 
         return self._process_data(lines)

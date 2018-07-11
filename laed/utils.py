@@ -101,7 +101,7 @@ def prepare_dirs_loggers(config, script=""):
 
     # save config
     param_path = os.path.join(config.session_dir, "params.json")
-    with open(param_path, 'wb') as fp:
+    with open(param_path, 'w', encoding='utf-8') as fp:
         json.dump(config.__dict__, fp, indent=4, sort_keys=True)
 
 
